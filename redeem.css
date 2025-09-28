@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    background: url('jungle.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+.back{
+  position: absolute;
+  margin-top: 30px;
+  left: 50px;
+  text-decoration: none;
+  color: white;
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.back:hover{
+  text-decoration: underline;
+  color: green;
+}
+
+  .information{
+    background-color: rgb(172, 211, 172);
+    margin-top: 100px;
+    margin-left: 280px;
+    width: 1000px;
+    height: 880px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .subtitle{
+    color: black;
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+  }
+
+  .content{
+    color: black;
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .input{
+    width: 500px;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 245px;
+  }
+
+  .sbmt{
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    border-radius: 10px;
+    border: black solid;
+    margin-top: 10px;
+    margin-left: 450px;
+  }
+
+  .closing{
+    color: black;
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .subtitle2{
+    color: black;
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .gambar{
+    margin-top: 20px;
+    margin-left: 270px;
+  }
+
+  .gambar2{
+    margin-top: 20px;
+    margin-left: 250px;
+  }

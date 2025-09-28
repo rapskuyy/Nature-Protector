@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    background: url('jungle.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+  .inner-container{
+    display: flex;
+    margin-top: 100px;
+    padding-left: 100px;
+  }
+
+  .card{
+    background-color: #c9e7be;
+    width: 350px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+  }
+  
+  .card2{
+    background-color: #c9e7be;
+    width: 350px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    margin-left: 100px;
+  }
+  
+  .card3{
+    background-color: #c9e7be;
+    width: 350px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    margin-left: 100px;
+  }
+
+  .card-photo{
+    width: 300px;
+  }
+  
+  .subtitle{
+    margin-top: 20px;
+    margin-left: -55px;
+    text-align: center;
+    color: black;
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .card-bttn{
+    background-color: rgb(228, 185, 185);
+    border: black solid;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    margin-left:45px;
+    margin-top: 60px;
+    color: black;
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    transition: background-color 0.2s ease;
+  }
+
+  .card-bttn:hover{
+    background-color: grey;
+    color: white;
+  }
+
+  .text{
+    text-decoration: none;
+  }

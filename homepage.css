@@ -1,0 +1,277 @@
+body{
+    margin: 0;
+}
+
+.intro-container {
+    position: relative; 
+    padding: 20px;
+    height: 480px;
+    z-index: 1;
+  }
+
+.divider {
+    height: 3px;
+    background-color: black;
+    
+}
+  
+.intro-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('pastelgreen.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(0px);
+    z-index: -1;
+  }
+
+  .login-container {
+    margin: 50px auto;
+    margin-right: 20px;
+    margin-top: -5px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(249, 249, 249, 0.9);
+    text-align: center;
+}
+
+.login-container2  {
+    margin: 50px auto;
+    margin-right: 20px;
+    margin-top: -20px;
+    margin-left: 100px;
+    width: 500px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.intro-title{
+    margin-top: 0;
+    text-align: center;
+    color: black;
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 56px;
+    word-spacing: 5px;
+}
+
+.text-container{
+    display: flex;
+    
+}
+
+.welcome-text{
+    text-align: center;
+    color: black;
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.didyouknow-container {
+    position: relative; 
+    padding: 20px;
+    height: 520px;
+    z-index: 1;
+  }
+  
+.didyouknow-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('lightgreen2.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(1px);
+    z-index: -1;
+  }
+
+.tree-photo{
+    width: 580px;
+    height: 320px;
+    margin-right: 50px;
+    margin-top: -10px;
+}
+
+.graph-photo{
+    width: 680px;
+    height: 390px;
+    margin-left: 50px;
+}
+
+.didyouknow-text{
+    text-align: center;
+    color: black;
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.quest-container {
+    position: relative; 
+    padding: 20px;
+    height: 560px;
+    z-index: 1;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+.quest-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('pastelgreen.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(0px);
+    z-index: -1;
+  }
+
+
+.oval{
+    text-align: center;
+    justify-content: center;
+    background-color: #446c4d;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 2px;
+    padding-top: 12px;
+    margin-left: 300px;
+}
+
+.button-quest{
+    text-decoration: none;
+    color:white;
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.plant-photo{
+    height: 350px;
+}
+
+.quest-info{
+    margin-left: 100px;
+    justify-content: center;
+    text-align: center;
+    margin: 50px auto;
+    margin-right: 20px;
+    margin-top: -20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(249, 249, 249, 0.9);
+    text-align: center;
+    margin-left: 40px;
+}
+
+.quest-text{
+    color: black;
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.merch-photo{
+    height: 280px;
+    width: 250px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.oval2{
+    text-align: center;
+    justify-content: center;
+    background-color: #446c4d;
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 2px;
+    padding-top: 12px;
+    margin-left: 180px;
+    margin-right: 100px;
+}
+
+.button-shop{
+    text-decoration: none;
+    color:white;
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.shop-text{
+    margin: 50px auto;
+    margin-right: 20px;
+    margin-top: -5px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(249, 249, 249, 0.9);
+    text-align: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.shop-container {
+    position: relative; 
+    padding: 20px;
+    height: 590px;
+    z-index: 1;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+.shop-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('lightgreen2.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(1px);
+    z-index: -1;
+  }
