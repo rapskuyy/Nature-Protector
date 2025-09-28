@@ -1,0 +1,1 @@
+Nature Protector is a website that was made with a collaboration with my four other teammates. This is a website with the main objective for protecting the environment by doing quest that have been given and receiving rewards after finishing it. This is a project for frontend only using HTML, CSS, and JS. 
